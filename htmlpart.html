@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: seagreen;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 40px;
+        }
+        nav {
+            display: flex;
+            gap: 30px;
+            margin-right: 30px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .poster {
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 50%;
+}
+        
+        .head {
+            margin-left: 30px;
+        }
+        .div2 {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 40px;
+        }
+        a {
+            text-decoration: ;
+        }
+        .right1 {
+            margin-right: 10px;
+            font-size: 40px;
+            font-style: italic;
+        }
+        aside a {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="head">
+        <h1><i>न्यायGPT</i></h1>
+    </div>
+    <nav>
+        <a href="htmlpart.html">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+        <a href="signin.html">Login</a>
+    </nav>
+</header>
+<br>
+<div class="div2">
+    <div class="poster">
+        <img src="side.jpg" height="700">
+    </div>
+<aside class="right1">
+    <font>24/7 legal assistance <br>at your fingertips<br>
+    <a href="signin.html">Log In to get started...</a></font>
+    </aside>
+</div>
+</body>
+</html>
